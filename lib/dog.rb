@@ -14,7 +14,6 @@ class Dog
     id Integer primary key, 
     name text,
     breed text
-    
     )
     SQL
     
