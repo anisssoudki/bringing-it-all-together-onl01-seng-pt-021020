@@ -43,7 +43,8 @@ class Dog
     def self.new_from_db
       
       dog = Dog.new(name: name, breed: breed)
-      
+      dog.save
+      dog
       
     end
     
