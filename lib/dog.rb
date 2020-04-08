@@ -44,11 +44,12 @@ class Dog
       
      self.create(name: row[1], breed: row[2])
      
+    end
+    
+    def self.find_by_id
       
       
     end
-    
-    
     
     
   
