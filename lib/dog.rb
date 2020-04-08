@@ -14,8 +14,9 @@ class Dog
     id Integer primary key, 
     name text,
     breed text
-    )
+    );
     SQL
+    
     DB[:conn].executre(sql)
   end
 end
