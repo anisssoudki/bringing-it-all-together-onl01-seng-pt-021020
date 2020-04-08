@@ -40,7 +40,12 @@ class Dog
       dog
     end
     
-    
+    def self.new_from_db
+      
+      dog = Dog.new(name: name, breed: breed)
+      
+      
+    end
     
     
     
